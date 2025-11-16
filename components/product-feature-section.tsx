@@ -10,7 +10,7 @@ export function ProductFeatureSection() {
         <div className="relative w-full max-w-md">
           <Image
             src="https://www.ashpveda.com/cdn/shop/files/Timer_Image.webp?v=1741617015&width=750"
-            alt="Glow, Purify, Renew - Bliss Belle Ayurvedic Skincare"
+            alt="Glow, Purify, Renew - Bliss Belles Ayurvedic Skincare"
             width={600}
             height={600}
             className="w-full h-auto object-contain"

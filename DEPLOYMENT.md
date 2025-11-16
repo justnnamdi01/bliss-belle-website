@@ -1,4 +1,4 @@
-# Deployment Guide - Bliss Belle Website
+# Deployment Guide - Bliss Belles Website
 
 ## Step 1: Create a GitHub Repository
 
@@ -7,7 +7,7 @@
 3. Select **"New repository"**
 4. Fill in the details:
    - **Repository name**: `bliss-belle-website` (or any name you prefer)
-   - **Description**: "Bliss Belle E-commerce Website"
+   - **Description**: "Bliss Belles E-commerce Website"
    - **Visibility**: Choose **Private** or **Public**
    - **DO NOT** initialize with README, .gitignore, or license (we already have these)
 5. Click **"Create repository"**

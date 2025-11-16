@@ -96,7 +96,7 @@ export function Footer() {
           <div className="col-span-2 md:col-span-3 lg:col-span-2">
             <h3 className="font-serif text-xl mb-6">About Us</h3>
             <p className="text-sm leading-relaxed mb-4">
-              At Bliss Belle, we are redefining Ayurveda for the modern world—blending timeless Ayurvedic wisdom with
+              At Bliss Belles, we are redefining Ayurveda for the modern world—blending timeless Ayurvedic wisdom with
               cutting-edge scientific research to create beauty solutions that are both authentic and effective.{" "}
               <Link href="/about" className="underline hover:text-[#87CEEB]">
                 More Info
@@ -163,7 +163,7 @@ export function Footer() {
 
           {/* Logo */}
           <div className="text-center">
-            <p className="font-serif text-2xl text-[#4A9B8E]">Bliss Belle</p>
+            <p className="font-serif text-2xl text-[#4A9B8E]">Bliss Belles</p>
             <p className="text-xs text-gray-400">PURE. NATURAL. AYURVEDIC</p>
           </div>
 

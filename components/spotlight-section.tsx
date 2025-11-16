@@ -11,7 +11,7 @@ export function SpotlightSection() {
           <div className="relative h-[400px] lg:h-[500px]">
             <Image
               src="https://www.ashpveda.com/cdn/shop/files/Footer_Banner.webp?v=1742309130&width=2000"
-              alt="In Spotlight - Bliss Belle Products"
+              alt="In Spotlight - Bliss Belles Products"
               fill
               className="object-cover"
               priority

@@ -21,7 +21,7 @@ const products: Product[] = [
   {
     id: "1",
     name: "Aloe Vera & Vetiver Fresh Hydrating Gel - 50ml",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 399.0,
     image: "https://www.ashpveda.com/cdn/shop/files/FreshHydratingGel-100ml.webp?v=1743677095&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -38,7 +38,7 @@ const products: Product[] = [
   {
     id: "2",
     name: "Aloe Vera Sunscreen SPF-50 - 50ml",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 499.0,
     image: "https://www.ashpveda.com/cdn/shop/files/AloeVeraSunscreenSPF-50-100mlFront.webp?v=1747483723&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -55,7 +55,7 @@ const products: Product[] = [
   {
     id: "3",
     name: "Coconut Milk Sunscreen SPF-50 - 50ml",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 499.0,
     image: "https://www.ashpveda.com/cdn/shop/files/CoconutMilkSunscreenSPF-50-Front.webp?v=1750914995&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -72,7 +72,7 @@ const products: Product[] = [
   {
     id: "4",
     name: "Foot Cream - 100gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 399.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Foot_Cream_Front_1_78bd1c2e-9293-4bc5-a5c2-19068b457687.webp?v=1760437049&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -88,7 +88,7 @@ const products: Product[] = [
   {
     id: "5",
     name: "Radiant Face Scrub - Dates & Walnuts - 12gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 199.0,
     image: "https://www.ashpveda.com/cdn/shop/files/FaceScrub-Dates_Walnuts-30gm.webp?v=1746702991&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -104,7 +104,7 @@ const products: Product[] = [
   {
     id: "6",
     name: "Radiant Face Scrub - Dates & Walnuts - 30gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 299.0,
     image: "https://www.ashpveda.com/cdn/shop/files/FaceScrub-Dates_Walnuts-30gm.webp?v=1746702991&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -120,7 +120,7 @@ const products: Product[] = [
   {
     id: "7",
     name: "Radiant Face Scrub - Dates & Walnuts - 50gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 399.0,
     image: "https://www.ashpveda.com/cdn/shop/files/FaceScrub-Dates_Walnuts-30gm.webp?v=1746702991&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -136,7 +136,7 @@ const products: Product[] = [
   {
     id: "8",
     name: "Goat Milk & Jojoba Oil Soap - 75gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 149.0,
     image: "https://www.ashpveda.com/cdn/shop/files/goat_milk_soap_2.webp?v=1760437210&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -153,7 +153,7 @@ const products: Product[] = [
   {
     id: "9",
     name: "Hand Cream Mandarin & Neem - 30gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 249.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Neem_Hand_Cream_009.webp?v=1721369541&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -170,7 +170,7 @@ const products: Product[] = [
   {
     id: "10",
     name: "Deep Relax Body Oil – Lemongrass & Eucalyptus - 30ml",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 449.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Deep_Relax_Body_Oil_120ml.webp?v=1742802327&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -186,7 +186,7 @@ const products: Product[] = [
   {
     id: "11",
     name: "Hydrating Gulab Soap - 75gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 149.0,
     image: "https://www.ashpveda.com/cdn/shop/files/gulabsoap75gm_5.webp?v=1760441463&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -203,7 +203,7 @@ const products: Product[] = [
   {
     id: "12",
     name: "Kannauj Rose & Oudh Bath & Body Oil - 120ml",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 699.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Kannauj_Rose_Oudh_Bath_Body_Oil-30ml_bg_front.webp?v=1748603002&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -220,7 +220,7 @@ const products: Product[] = [
   {
     id: "13",
     name: "Kannauj Rose & Oudh Bath & Body Oil - 30ml",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 399.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Kannauj_Rose_Oudh_Bath_Body_Oil-30ml_bg_front.webp?v=1748603002&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -237,7 +237,7 @@ const products: Product[] = [
   {
     id: "14",
     name: "Kannauj Rose Water Face Mist - 100ml",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 349.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Rose_Water-face_mist-100ml.webp?v=1742645754&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -253,7 +253,7 @@ const products: Product[] = [
   {
     id: "15",
     name: "Kannauj Rose Water Face Mist - 30ml",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 249.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Rose_Water-face_mist-100ml.webp?v=1742645754&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -269,7 +269,7 @@ const products: Product[] = [
   {
     id: "16",
     name: "Kashmiri Saffron & Neem Body Wash - 100ml",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 449.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Kashmiri_Saffron_Neem_Body_Wash_front_wbg-30ml_f5c999d5-32be-44c6-86c2-bba054932d33.jpg?v=1760436544&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -286,7 +286,7 @@ const products: Product[] = [
   {
     id: "17",
     name: "Saffron & Neem Face Wash for Normal Oily Skin - 100ml",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 449.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Saffron_NeemFaceWash-100ml.webp?v=1744183485&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -301,7 +301,7 @@ const products: Product[] = [
   {
     id: "18",
     name: "Nourishing & Restoring Night Cream - 12gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 349.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Nourishing_Restoring_Night_Cream_30_gm_front.webp?v=1744183027&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -317,7 +317,7 @@ const products: Product[] = [
   {
     id: "19",
     name: "Nourishing & Restoring Night Cream - 30gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 425.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Nourishing_Restoring_Night_Cream_30_gm_front.webp?v=1744183027&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -333,7 +333,7 @@ const products: Product[] = [
   {
     id: "20",
     name: "Rose Lip Balm - 15gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 229.0,
     image: "https://www.ashpveda.com/cdn/shop/products/lip-care-rose-petal-lip-balm.jpg",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -349,7 +349,7 @@ const products: Product[] = [
   {
     id: "21",
     name: "Saffron & Sandalwood Soap - 100gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 179.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Sandalwood_Saffron_soap_100_gm_5.webp?v=1760437455&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -366,7 +366,7 @@ const products: Product[] = [
   {
     id: "22",
     name: "Sandalwood & Turmeric Soap - 75gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 149.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Sandalwood_TurmericSoapfrontwithingredientswbg.webp?v=1760437863&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -382,7 +382,7 @@ const products: Product[] = [
   {
     id: "23",
     name: "Sensuous Jasmine & Mogra Soap - 75gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 149.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Jasminemograsoap75gm_4.webp?v=1760437783&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -399,7 +399,7 @@ const products: Product[] = [
   {
     id: "24",
     name: "Shubhr Mystic Musk",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 899.0,
     image: "https://www.ashpveda.com/cdn/shop/files/MYSTIC_musk_2_8407b5c7-2b65-40b4-994c-e8f934e23669.png?v=1759311020&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -416,7 +416,7 @@ const products: Product[] = [
   {
     id: "25",
     name: "Shubhra Oudh Royale",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 999.0,
     image: "https://www.ashpveda.com/cdn/shop/files/OUDH_royal_1_48703dc1-be6a-4d1e-b911-5de64ce601db.png?v=1759309951&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -433,7 +433,7 @@ const products: Product[] = [
   {
     id: "26",
     name: "Ultra Hydration Face Pack - 30gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 449.0,
     image: "https://www.ashpveda.com/cdn/shop/files/UltraHydrationFacePack30gm.webp?v=1742802597&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -450,7 +450,7 @@ const products: Product[] = [
   {
     id: "27",
     name: "Ultra Hydration Radiance Cream with Natural SPF 25 - 12gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 299.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Ultra_Hydration_Radiance_Cream_with_Natural_SPF_25-30_gm_front.webp?v=1742640435&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -466,7 +466,7 @@ const products: Product[] = [
   {
     id: "28",
     name: "Ultra Hydration Radiance Cream with Natural SPF 25 - 30gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 549.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Ultra_Hydration_Radiance_Cream_with_Natural_SPF_25-30_gm_front.webp?v=1742640435&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -482,7 +482,7 @@ const products: Product[] = [
   {
     id: "29",
     name: "Ultra Hydration Radiance Cream with Natural SPF 25 - 50gm",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 649.0,
     image: "https://www.ashpveda.com/cdn/shop/files/Ultra_Hydration_Radiance_Cream_with_Natural_SPF_25-30_gm_front.webp?v=1742640435&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -498,7 +498,7 @@ const products: Product[] = [
   {
     id: "30",
     name: "Virgin Almond Oil - 120ml",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 699.0,
     image: "https://www.ashpveda.com/cdn/shop/files/VirginAlmondOil120ml.webp?v=1742802751&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",
@@ -515,7 +515,7 @@ const products: Product[] = [
   {
     id: "31",
     name: "Virgin Almond Oil - 30ml",
-    brand: "BLISS BELLE",
+    brand: "BLISS BELLES",
     price: 299.0,
     image: "https://www.ashpveda.com/cdn/shop/files/VirginAlmondOil120ml.webp?v=1742802751&width=4096",
     botanicalIcon: "/small-golden-botanical-leaf-icon.jpg",

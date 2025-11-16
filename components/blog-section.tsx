@@ -37,7 +37,7 @@ export function BlogSection() {
     <section className="bg-[#E0F4FF] py-16 lg:py-20">
       <div className="container mx-auto px-4 lg:px-8">
         {/* Section Title */}
-        <h2 className="font-serif text-4xl lg:text-5xl text-center mb-12">Bliss Belle Blogs</h2>
+        <h2 className="font-serif text-4xl lg:text-5xl text-center mb-12">Bliss Belles Blogs</h2>
 
         {/* Blog Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
@@ -53,7 +53,7 @@ export function BlogSection() {
                 <div className="absolute top-4 left-4 bg-white rounded-full p-2 w-16 h-16">
                   <Image
                     src={post.badge || "/placeholder.svg"}
-                    alt="Bliss Belle"
+                    alt="Bliss Belles"
                     width={48}
                     height={48}
                     className="object-contain"

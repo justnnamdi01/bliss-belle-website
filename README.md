@@ -1,6 +1,6 @@
-# Bliss Belle - E-commerce Website
+# Bliss Belles - E-commerce Website
 
-A modern, beautiful e-commerce website for Bliss Belle beauty products built with Next.js, React, and Tailwind CSS.
+A modern, beautiful e-commerce website for Bliss Belles beauty products built with Next.js, React, and Tailwind CSS.
 
 ## Features
 

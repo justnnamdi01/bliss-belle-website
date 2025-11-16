@@ -1,5 +1,6 @@
 "use client"
 
+import { useEffect, useRef } from "react"
 import { motion } from "framer-motion"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
@@ -28,6 +29,28 @@ const products = [
 ]
 
 export function VideoHeroSection() {
+  const videoRef = useRef<HTMLVideoElement>(null)
+
+  useEffect(() => {
+    const video = videoRef.current
+    if (video) {
+      // Force play on mobile devices
+      const playPromise = video.play()
+      if (playPromise !== undefined) {
+        playPromise.catch(() => {
+          // Autoplay was prevented, try again on user interaction
+          const handleInteraction = () => {
+            video.play().catch(() => {})
+            document.removeEventListener('touchstart', handleInteraction)
+            document.removeEventListener('click', handleInteraction)
+          }
+          document.addEventListener('touchstart', handleInteraction, { once: true })
+          document.addEventListener('click', handleInteraction, { once: true })
+        })
+      }
+    }
+  }, [])
+
   return (
     <section className="bg-[#E0F4FF] py-16 px-4">
       <div className="max-w-7xl mx-auto">
@@ -52,6 +75,7 @@ export function VideoHeroSection() {
         >
           {/* Actual Video */}
           <video 
+            ref={videoRef}
             className="absolute inset-0 w-full h-full object-cover"
             autoPlay
             muted
@@ -135,7 +159,7 @@ export function VideoHeroSection() {
 
                     {/* Product Info */}
                     <div className="flex-1 min-w-0">
-                      <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">BLISS BELLE</p>
+                      <p className="text-xs text-gray-500 uppercase tracking-wide mb-1">BLISS BELLES</p>
                       <h3 className="text-sm font-medium text-[#2C5F7F] mb-2 line-clamp-2">{product.name}</h3>
                       <p className="text-sm font-semibold text-[#2C5F7F]">From ₹ {product.price}</p>
                     </div>

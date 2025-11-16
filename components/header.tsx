@@ -85,7 +85,7 @@ export function Header() {
             href="/"
             className={`${textColor} text-2xl font-serif tracking-wide hover:opacity-80 transition-opacity`}
           >
-            Bliss Belle
+                Bliss Belles
           </Link>
 
           <div className="flex items-center gap-6">

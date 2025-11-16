@@ -43,11 +43,39 @@ interface Notification {
   is_active: boolean
 }
 
+const ADMIN_PASSWORD = "BlissBelles2024" // Change this to your desired password
+
 export default function AdminPage() {
+  const [isAuthenticated, setIsAuthenticated] = useState(false)
+  const [password, setPassword] = useState("")
   const [orders, setOrders] = useState<Order[]>([])
   const [notifications, setNotifications] = useState<Notification[]>([])
   const [isLoading, setIsLoading] = useState(true)
   const { toast } = useToast()
+
+  const handleLogin = (e: React.FormEvent) => {
+    e.preventDefault()
+    if (password === ADMIN_PASSWORD) {
+      setIsAuthenticated(true)
+      // Store authentication in sessionStorage
+      sessionStorage.setItem("admin_authenticated", "true")
+    } else {
+      toast({
+        title: "Access Denied",
+        description: "Incorrect password. Please try again.",
+        variant: "destructive",
+      })
+      setPassword("")
+    }
+  }
+
+  useEffect(() => {
+    // Check if already authenticated
+    const authStatus = sessionStorage.getItem("admin_authenticated")
+    if (authStatus === "true") {
+      setIsAuthenticated(true)
+    }
+  }, [])
 
   const [newNotification, setNewNotification] = useState({
     title: "",
@@ -57,9 +85,11 @@ export default function AdminPage() {
   })
 
   useEffect(() => {
-    fetchOrders()
-    fetchNotifications()
-  }, [])
+    if (isAuthenticated) {
+      fetchOrders()
+      fetchNotifications()
+    }
+  }, [isAuthenticated])
 
   const fetchOrders = async () => {
     setIsLoading(true)
@@ -234,6 +264,38 @@ export default function AdminPage() {
         variant: "destructive",
       })
     }
+  }
+
+  // Show login form if not authenticated
+  if (!isAuthenticated) {
+    return (
+      <div className="min-h-screen bg-[#E0F4FF] flex items-center justify-center px-4">
+        <Card className="w-full max-w-md">
+          <CardHeader>
+            <CardTitle className="text-2xl text-center">Admin Login</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <form onSubmit={handleLogin} className="space-y-4">
+              <div>
+                <Label htmlFor="password">Password</Label>
+                <Input
+                  id="password"
+                  type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
+                  placeholder="Enter admin password"
+                  className="mt-1"
+                  required
+                />
+              </div>
+              <Button type="submit" className="w-full">
+                Login
+              </Button>
+            </form>
+          </CardContent>
+        </Card>
+      </div>
+    )
   }
 
   return (

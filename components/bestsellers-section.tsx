@@ -106,7 +106,7 @@ export function BestsellersSection() {
                 </motion.div>
 
                 <div className="p-4 space-y-2">
-                  <p className="text-xs text-gray-600 uppercase tracking-wider">BLISS BELLE</p>
+                      <p className="text-xs text-gray-600 uppercase tracking-wider">BLISS BELLES</p>
                   <h3 className="font-serif text-lg text-[#2C5F7F] min-h-[3rem]">{product.name}</h3>
 
                   <div className="flex items-center gap-1">
